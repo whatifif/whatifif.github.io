@@ -15,7 +15,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && gh-pages -d build -r git@github.com:whatifif/whatifif.github.io.git -b master"
+    "deploy": "npm run build && gh-pages -d build -b master"
   },
   "homepage": "https://whatifif.github.io"
 }
