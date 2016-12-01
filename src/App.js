@@ -9,6 +9,7 @@ import About from './components/About/About';
 import Team from './components/Team/Team';
 import Clients from './components/Clients/Clients';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 class App extends Component {
   render() {
@@ -30,6 +31,7 @@ class App extends Component {
         <Team/>
         <Clients/>
         <Contact/>
+        <Footer/>
       </div>
     );
   }
